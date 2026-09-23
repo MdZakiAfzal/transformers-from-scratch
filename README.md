@@ -22,3 +22,9 @@ To run the notebook or script, you will need an environment with standard deep l
 Launch Jupyter Notebook and open the implementation to run the model cell-by-cell and visualize the training process:
 ```bash
 jupyter notebook Tiny_Shakespear_Transformer.ipynb
+
+**Option 2: Terminal Execution**
+To train the model directly from your terminal using the provided script, run:
+```bash
+python script.py
+
