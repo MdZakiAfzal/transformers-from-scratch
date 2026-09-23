@@ -22,9 +22,14 @@ To run the notebook or script, you will need an environment with standard deep l
 Launch Jupyter Notebook and open the implementation to run the model cell-by-cell and visualize the training process:
 ```bash
 jupyter notebook Tiny_Shakespear_Transformer.ipynb
+```
 
 **Option 2: Terminal Execution**
 To train the model directly from your terminal using the provided script, run:
 ```bash
 python script.py
+```
 
+## How it Works
+
+The model reads `input.txt` to build a character-level vocabulary. It then utilizes standard Transformer blocks (including multi-head self-attention and layer normalization) to predict the next character in a sequence given the previous context. After training, the model can generate novel, Shakespeare-like text based on what it learned.
